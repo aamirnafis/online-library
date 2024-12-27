@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manga Comics Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b0e0e6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #444;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .manga-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .manga-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px;
+            width: 220px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .manga-item:hover {
+            transform: scale(1.05);
+        }
+        .manga-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-bottom: 1px solid #ddd;
+        }
+        .manga-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #333;
+        }
+        .manga-description {
+            font-size: 0.9em;
+            color: #777;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Manga Comics Collection</h1>
+
+        <div class="manga-list">
+
+            <div class="manga-item">
+                <a href="Jujutsu Kaisen.pdf">
+                    <img src="jjk.jpg" alt="Jujutsu Kaisen" class="manga-img">
+                </a>
+                <div class="manga-title">Jujutsu Kaisen</div>
+                <div class="manga-description">
+                    A modern supernatural battle manga series following Yuji Itadori and his journey into the world of curses.
+                </div>
+            </div>
+
+            <div class="manga-item">
+                <a href="Naruto Volume 01 - PDF Room.pdf">
+                    <img src="naruto.jpg" alt="Naruto" class="manga-img">
+                </a>
+                <div class="manga-title">Naruto</div>
+                <div class="manga-description">
+                    The story of Naruto Uzumaki, an orphaned ninja with dreams of becoming the Hokage, the strongest ninja of the village.
+                </div>
+            </div>
+
+            <div class="manga-item">
+                <a href="db.pdf">
+                    <img src="db.jpg" alt="Dragon Ball" class="manga-img">
+                </a>
+                <div class="manga-title">Dragon Ball</div>
+                <div class="manga-description">
+                    The iconic story of Goku and his adventures to collect the Dragon Balls and become the strongest warrior in the universe.
+                </div>
+            </div>
+
+            <div class="manga-item">
+                <a href="one piece.pdf">
+                    <img src="one piece.jpg" alt="One Piece" class="manga-img">
+                </a>
+                <div class="manga-title">One Piece</div>
+                <div class="manga-description">
+                    Join Monkey D. Luffy on his quest to become the Pirate King and find the legendary treasure known as the One Piece!
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

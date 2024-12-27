@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b0e0e6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #444;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .book-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .book-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px;
+            width: 220px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .book-item:hover {
+            transform: scale(1.05);
+        }
+        .book-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-bottom: 1px solid #ddd;
+        }
+        .book-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #333;
+        }
+        .book-author {
+            font-size: 1em;
+            color: #555;
+        }
+        .book-description {
+            font-size: 0.9em;
+            color: #777;
+            margin: 10px;
+        }</style>
+    <h2>ECE (Electronics and Communication Engineering) Books</h2>
+    <div class="book-list">
+        <div class="book-item">
+            <a href="DIGITAL_CIRCUITS_AND_LOGIC_DESIGNS.pdf">
+            <img src="de.jpg" alt="Digital Electronics" class="book-img"></a>
+            <div class="book-title">Digital Electronics</div>
+            <div class="book-author">By Salivahanan</div>
+            <div class="book-description">A complete guide to digital logic design and circuit theory.</div>
+        </div>
+        <div class="book-item">
+            <a href="Signal-System-text-book-9.pdf">
+            <img src="ss.webp" alt="Signals and Systems" class="book-img"></a>
+            <div class="book-title">Signals and Systems</div>
+            <div class="book-author">By Alan V. Oppenheim</div>
+            <div class="book-description">A comprehensive text on the fundamentals of signals, systems, and transforms in engineering.</div>
+        </div>
+    </div>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
